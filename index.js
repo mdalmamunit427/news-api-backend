@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:5173","https://test-news-client.vercel.app"],
+    origin: ["http://localhost:5173","https://final-new-frontend.vercel.app"],
     credentials: true,
 }))
 app.use(express.json());
